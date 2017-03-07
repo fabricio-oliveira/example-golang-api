@@ -2,9 +2,10 @@ package conf
 
 import (
 	"fmt"
-	co "local/descomplica-company/api/controller"
 	"log"
 	"net/http"
+
+	co "github.com/fabricio-oliveira/simple-api/controller"
 
 	"github.com/go-zoo/bone"
 	"github.com/jinzhu/gorm"

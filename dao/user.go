@@ -1,8 +1,9 @@
 package dao
 
 import (
-	"local/descomplica-company/api/models"
 	"log"
+
+	"github.com/fabricio-oliveira/simple-api/models"
 
 	"github.com/jinzhu/gorm"
 )

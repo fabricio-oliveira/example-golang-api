@@ -2,7 +2,8 @@ package conf
 
 import (
 	"errors"
-	"local/descomplica-company/api/models"
+
+	"github.com/fabricio-oliveira/simple-api/models"
 
 	"github.com/jinzhu/gorm"
 	//drive database

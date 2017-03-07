@@ -1,7 +1,7 @@
 package main
 
 import (
-	"local/descomplica-company/api/conf"
+	"github.com/fabricio-oliveira/simple-api/conf"
 )
 
 func main() {

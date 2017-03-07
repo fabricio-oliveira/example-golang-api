@@ -2,11 +2,12 @@ package controller
 
 import (
 	"encoding/json"
-	"local/descomplica-company/api/dao"
-	"local/descomplica-company/api/models"
 	"log"
 	"net/http"
 	"strconv"
+
+	"github.com/fabricio-oliveira/simple-api/dao"
+	"github.com/fabricio-oliveira/simple-api/models"
 
 	"github.com/go-zoo/bone"
 	"github.com/jinzhu/gorm"
@@ -17,14 +18,15 @@ type User struct {
 	userDAO *dao.User
 }
 
+func initHeader(w http.ResponseWriter) {
+	w.Header().Set("Content-Type", "application/json")
+}
+
 //NewUser create a new user
 func NewUser(db *gorm.DB) *User {
 	return &User{userDAO: dao.NewUser(db)}
 }
 
-func initHeader(w http.ResponseWriter) {
-	w.Header().Set("Content-Type", "application/json")
-}
 
 //URL returnn URL to acess User
 func (u User) URL() string {
