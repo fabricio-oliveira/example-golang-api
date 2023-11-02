@@ -1,10 +1,10 @@
 ## Synopsis
 
-This is a simple golang rest-API project with CRUD
+This is a CRUD golang rest-API
 
 ## Code Example
 
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+This is a Go CRUD API created for practicing Golang and serving as a study base for other students on GitHub.
 
 ## Motivation
 
@@ -15,5 +15,4 @@ Help other peoples learn golang.
 just install golang 1.6
 
 ## Tests
-
-I need put test.
+tech debt 😁.
