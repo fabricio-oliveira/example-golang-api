@@ -16,8 +16,8 @@ func InitHandle(db *gorm.DB) {
 
 	porta := ":8081"
 	portaStatic := ":8080"
-	fmt.Println("WebServer go iniciado na porta ", porta)
-	fmt.Println("WebServer static iniciado na porta ", portaStatic)
+	fmt.Println("WebServer go starting at port ", porta)
+	fmt.Println("WebServer static stating at port ", portaStatic)
 
 	mux := bone.New()
 
